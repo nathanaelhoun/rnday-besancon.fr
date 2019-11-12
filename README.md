@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# R&Day 2020 - La Sécurité Informatique
 
-You can use the [editor on GitHub](https://github.com/nathanaelhoun/rnday-besancon.fr/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Activités
+Escape Game
+Conférences
+- (nom conférencier - thème 1)
+- (nom conférencier - thème 1)
+- (nom conférencier - thème 1)
+Ateliers participatifs (liste des thèmes)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Événement
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Le lundi 16 mars 2020
+À l'UFR-ST Besançon https://goo.gl/maps/Uzz43SBBXaWhURHFA
+```
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.5383181582797!2d5.985834207727453!3d47.24517594803645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d63b03f041ec7%3A0x1ff50398b5109619!2sUFR%20ST%20%7C%20Universit%C3%A9%20de%20Franche-Comt%C3%A9!5e0!3m2!1sen!2sfr!4v1573551192236!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nathanaelhoun/rnday-besancon.fr/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact
+[Contactez-nous](mailto:contact@rnday-besancon.fr)
