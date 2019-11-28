@@ -20,14 +20,25 @@
 	</header>
 
 	<!-- Signup Form -->
-	<form id="signup-form" action="https://formkeep.com/f/910d50c13d08" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
-		<input type="email" name="email" id="email" placeholder="Votre adresse-email" required/>
-		<input type="submit" value="Être tenu au courant" />
+	<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeVqx_yfg2RZ9vO0MeZtQD3jMnOTAQ5WG4A78M29tuX75Zk7A/formResponse?" target="hidden_iframe" onsubmit="showValidation();">
+		<input type="email" name="entry.439569742" id="entry.439569742" placeholder="Votre adresse email" required>
+		<div id="form-validation" style="display:none">&#10004; Votre message a bien été enregistré ! </div>
 		<div hidden>
-			<input hidden type="text" name="name" placeholder="Votre nom" value="Personne anonyme" required />
-			<textarea hidden name="message" placeholder="Votre message" rows="6" required>Je souhaite être tenu au courant</textarea>
+			<input type="text" name="entry.1914085011" id="entry.1914085011" placeholder="Votre nom" value="Personne anonyme" required>
+			<textarea type="text" name="entry.627023577" id="entry.627023577" placeholder="Votre message" required>Je souhaite être tenu au courant</textarea>
 		</div>
+		<input type="submit" value="Tenez-moi au courant">
 	</form>
+
+
+	<script type="text/javascript">var submitted = false;</script>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+	<script type="text/javascript">
+		showValidation = function() {
+			document.getElementById('form-validation').style.display = "block"
+		}
+	</script>
 
 	<!-- Footer -->
 	<footer id="footer">
