@@ -1,0 +1,98 @@
+{
+  "page":{
+    "titlesuffix" : "R&Day Besançon 2020",
+    "h1": {"1": "R&", "2": "Day"},
+  },
+  "navigation":{
+    "index": {"href": "index.html", "label":"Home"},
+    "about": {"href": "about.html", "label":"About"},
+    "speakers": {"href": "speakers.html", "label":"Speakers"},
+    "news": {"href": "news.html", "label":"News"},
+    "contact": {"href": "contact.html", "label":"Contacts"},
+  },
+  "speakers": {
+    "label": "Conférenciers",
+    "generalDescription": "Chercheurs et professionnels bisontins de la sécurité numérique (à compléter)",
+    "speakers-array": [
+      {
+        "css-order-lg-1": "",
+        "css-order-lg-2": "",
+        "css-data-aos": "fade-right",
+        "image": "images/person_1.jpg",
+        "name": "Prénom Nom",
+        "quality": "Métier",
+        "description": "Elle est vraiment géniale",
+        "networksLabel": "Suivez Prénom",
+        "networks": [
+          {
+          "icon-class": "icon-facebook",
+          "url": "https://www.facebook.com"
+          }, {
+          "icon-class": "icon-twitter",
+          "url": "https://www.twitter.com"
+          }
+        ],
+      },
+      {
+        "css-order-lg-1": "order-lg-1",
+        "css-order-lg-2": "order-lg-2",
+        "css-data-aos": "fade-left",
+        "image": "images/person_2.jpg",
+        "name": "Prénom-Composé Nom",
+        "quality": "Métier",
+        "description": "Il est vraiment super",
+        "networksLabel": "Suivez Prénom",
+        "networks": [{
+          "icon-class": "icon-github",
+          "url": "https://www.github.com"
+        }, {
+          "icon-class": "icon-twitter",
+          "url": "https://www.twitter.com"
+        }]
+      },
+      {
+        "css-order-lg-1": "",
+        "css-order-lg-2": "",
+        "css-data-aos": "fade-right",
+        "image": "images/person_3.jpg",
+        "name": "Prénom-Peu-Courant Nom",
+        "quality": "Métier",
+        "description": "Elle est complètement incroyable",
+        "networksLabel": "Suivez Prénom",
+        "networks": [{
+          "icon-class": "icon-facebook",
+          "url": "https://www.facebook.com"
+        }, {
+          "icon-class": "icon-twitter",
+          "url": "https://www.twitter.com"
+        }]
+      },
+      {
+        "css-order-lg-1": "order-lg-1",
+        "css-order-lg-2": "order-lg-2",
+        "css-data-aos": "fade-left",
+        "image": "images/person_4.jpg",
+        "name": "Prénom Nom-Nom2",
+        "quality": "Métier",
+        "description": "Il est complètement inopiné",
+        "networksLabel": "Suivez Prénom",
+        "networks": [{
+          "icon-class": "icon-facebook",
+          "url": "https://www.facebook.com"
+        }, {
+          "icon-class": "icon-twitter",
+          "url": "https://www.twitter.com"
+        }]
+      },
+    ],
+  },
+  "footer": {
+    "aboutEvent": {"label": "À propos de l'événément", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto."},
+    "quicklinksLabel":"Liens rapides",
+    "socialNetworks": {
+      "label":"Suivez-nous sur nos réseaux",
+      "facebookLink":"https://www.facebook.com/rndaybesancon",
+      "twitterLink":"https://twitter.com/rnday_besancon",
+    },
+  }
+}
