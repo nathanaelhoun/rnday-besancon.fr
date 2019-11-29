@@ -4,11 +4,11 @@
     "h1": {"1": "R&", "2": "Day"},
   },
   "navigation":{
-    "index": {"href": "index.html", "label":"Home"},
-    "about": {"href": "about.html", "label":"About"},
-    "speakers": {"href": "speakers.html", "label":"Speakers"},
-    "news": {"href": "news.html", "label":"News"},
-    "contact": {"href": "contact.html", "label":"Contacts"},
+    "index": {"href": "index.html", "label":"Accueil"},
+    "about": {"href": "about.html", "label":"Qui sommes-nous"},
+    "speakers": {"href": "speakers.html", "label":"Conférenciers"},
+    "news": {"href": "news.html", "label":"Actualités"},
+    "contact": {"href": "contact.html", "label":"Contactez-nous"},
   },
   "speakers": {
     "label": "Conférenciers",
