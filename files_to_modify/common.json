@@ -156,6 +156,93 @@
       },
     ],
   },
+  "whoAreWe": {
+    "title": "Le Cursus Master en Ingénierie",
+    "description": {
+      "part1":"Le Cursus Master en Ingénierie est une formation proposée par le <a href='https://reseau-figure.fr/universite/universite-de-franche-comte/'>réseau Figure</a> et soutenue à Besançon par l’institut FEMTO-ST et notamment avec son Département Informatique des Systèmes Complexes (DISC).",
+      "part2": "Elle ambitionne entre autres de former les étudiants aux problématiques actuelles à travers des activités pédagogiques de mises en situation.",
+    },
+    "event": {
+      "title": "La R&Day",
+      "description": {
+          "part1": "La Journée Recherche et Développement, ou <i style='color: #ff5733;'>R&Day</i> comme nous l'appelons, est un événement organisé dans le cadre de la formation CMI par les étudiants en 2<sup>ème</sup> année de Licence.",
+          "part2": "Elle est l'occasion pour nous d'apprendre à créer un événément, mais surtout de vous faire entrer dans notre univers en vous faisant découvrir un pan de notre corps de métier : l'Informatique.",
+          "part3": "",
+        },
+      "author": {
+        "name": "Nathanaël H.",
+        "image": "images/person_4.jpg",
+        "quality": "Référent web",
+      },
+    },
+  },
+  "ourTeam": {
+    "title": "Le CMI Informatique de Besançon",
+    "ourTeam-array": [{
+        "data-aos-delay":"100",
+        "name": "Hélène B.",
+        "image": "images/person_1.jpg",
+        "quality": "Référente logistique",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"200",
+        "name": "Antoine C.",
+        "image": "images/person_2.jpg",
+        "quality": "Référent animation",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"300",
+        "name": "Lucas C.",
+        "image": "images/person_3.jpg",
+        "quality": "Référent animation",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"400",
+        "name": "Joseph D.",
+        "image": "images/person_4.jpg",
+        "quality": "Référent animation",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"500",
+        "name": "Fabian D.",
+        "image": "images/person_5.jpg",
+        "quality": "Référent partenariats",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"600",
+        "name": "Nathanaël H.",
+        "image": "images/person_4.jpg",
+        "quality": "Référent web",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"700",
+        "name": "Baptiste L.-P.",
+        "image": "images/person_3.jpg",
+        "quality": "Référent conférence",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"800",
+        "name": "Medhi L.",
+        "image": "images/person_2.jpg",
+        "quality": "Référent communication",
+        "description": "",
+      },
+      {
+        "data-aos-delay":"900",
+        "name": "Valentin P.",
+        "image": "images/person_1.jpg",
+        "quality": "Référent photographie",
+        "description": "",
+      },
+    ],
+  },
   "sponsors": {
     "title": "Sponsors",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.",
@@ -199,6 +286,6 @@
     "credit": "Copyright &copy; <script>
       document.write(new Date().getFullYear());
     </script> Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank'>Colorlib</a>",
-    "signature": "Adapté par Fabian D. & Nathanaël H. pour leur promotion",
+    "signature": "Adapté par Fabian D. & <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour leur promotion CMI",
   }
 }
