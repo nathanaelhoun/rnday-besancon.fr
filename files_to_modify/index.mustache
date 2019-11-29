@@ -33,6 +33,7 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
+    <!-- Header -->
     <header class="site-navbar py-3" role="banner">
       <div class="container-fluid">
         <div class="row align-items-center">
@@ -68,7 +69,7 @@
       </div>
     </div>
 
-
+    <!-- Speakers -->
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -107,79 +108,33 @@
     </div>
 
 
-
+    <!-- Program -->
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4" data-aos="fade-up">
             <div class="site-section-heading">
-              <h2>Programs</h2>
+              <h2>{{{program.title}}}</h2>
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+            <p>{{{program.description}}}</p>
           </div>
         </div>
 
         <div class="row align-items-stretch program">
-          <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
+
+          {{#program.program-array}}
+            <div class="col-12 {{css-class}} border-bottom py-5" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
+              <div class="row align-items-stretch">
+                <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">{{{hour}}}h</span><span>{{{minute}}}</span></div>
+                <div class="col-md-9">
+                  <h2 class="text-white">{{{description}}}</h2>
+                  <span>{{{speaker}}}</span>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="300">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="400">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:45</span> <span>NOON</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Break With Snacks</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">11:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="700">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">12:00</span> <span>NOON</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Break For Lunch</h2>
-              </div>
-            </div>
-          </div>
-
+          {{/program.program-array}}
 
         </div>
       </div>
@@ -287,6 +242,7 @@
       </div>
     </div>
 
+    <!-- Footer -->
     <footer class="site-footer">
       <div class="container">
         <div class="row mb-5">
@@ -318,10 +274,11 @@
             <div class="border-top pt-5">
               <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; <script>
-                  document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                {{{footer.credit}}}
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+              <p>
+                {{{footer.signature}}}
               </p>
             </div>
           </div>

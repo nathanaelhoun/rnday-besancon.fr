@@ -86,6 +86,76 @@
       },
     ],
   },
+  "program": {
+    "title": "Programme",
+    "description": "Description du programme (à rajouter)",
+    "program-array": [
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "200",
+        "hour": "8",
+        "minute": "30",
+        "description" : "Accueil des élèves du Lycée (rajouter nom lycée)",
+        "speaker": "Étudiants du CMI Informatique",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "300",
+        "hour": "9",
+        "minute": "00",
+        "description" : "Escape game & ateliers pour les lycéens ",
+        "speaker": "Étudiants du CMI Informatique",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "400",
+        "hour": "9",
+        "minute": "30",
+        "description" : "Conférence 1 (ouverte à tous) : thème",
+        "speaker": "Intervenant 1",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "500",
+        "hour": "10",
+        "minute": "00",
+        "description" : "Escape game & ateliers pour les lycéens ",
+        "speaker": "Étudiants du CMI Informatique",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "600",
+        "hour": "14",
+        "minute": "00",
+        "description" : "Conférence 2 (ouverte à tous): thème ",
+        "speaker": "Intervenant 2",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "700",
+        "hour": "14",
+        "minute": "30",
+        "description" : "Escape game & ateliers ouverts à tous",
+        "speaker": "Étudiants du CMI Informatique",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "800",
+        "hour": "16",
+        "minute": "30",
+        "description" : "Conférence 3 (ouverte à tous): thème",
+        "speaker": "Intervenant 3",
+      },
+      {
+        "css-class": " border-top",
+        "data-aos-delay": "900",
+        "hour": "17",
+        "minute": "00",
+        "description" : "Conclusion de la journée",
+        "speaker": "",
+      },
+    ],
+  },
   "footer": {
     "aboutEvent": {"label": "À propos de l'événément", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto."},
     "quicklinksLabel":"Liens rapides",
@@ -94,5 +164,9 @@
       "facebookLink":"https://www.facebook.com/rndaybesancon",
       "twitterLink":"https://twitter.com/rnday_besancon",
     },
+    "credit": "Copyright &copy; <script>
+      document.write(new Date().getFullYear());
+    </script> Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank'>Colorlib</a>",
+    "signature": "Adapté par Fabian D. & Nathanaël H. pour leur promotion",
   }
 }
