@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-  <title>Orateurs &mdash; {{{page.titlesuffix}}}</title>
+  <title>Activités &mdash; {{{page.titlesuffix}}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -44,8 +44,8 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a href="{{{navigation.index.href}}}">{{{navigation.index.label}}}</a></li>
+                <li class="active"><a href="{{{navigation.activities.href}}}">{{{navigation.activities.label}}}</a></li>
                 <li><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
-                <li class="active"><a href="{{{navigation.speakers.href}}}">{{{navigation.speakers.label}}}</a></li>
                 <li><a href="{{{navigation.news.href}}}">{{{navigation.news.label}}}</a></li>
                 <li class="cta"><a href="{{{navigation.contact.href}}}">{{{navigation.contact.label}}}</a></li>
               </ul>
@@ -61,16 +61,61 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Intervenants</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">{{{speakers.label}}}</h1>
+            <span class="d-block mb-3 caption" data-aos="fade-up">Quoi de prévu ?</span>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Activités</h1>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Workshops -->
+    <div class="site-section">
+      <div class="container">
+
+        <div class="row mb-5">
+          <div class="col-lg-4 ">
+            <div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
+              <h2>{{{workshops.title}}}</h2>
+
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <p>{{{workshops.generalDescription}}}</p>
+          </div>
+        </div>
+
+        {{#workshops.workshops-array}}
+          <div class="row align-items-center speaker">
+            <div class="col-lg-6 mb-5 mb-lg-0 {{css-order-lg-2}}" data-aos="fade" data-aos-delay="100">
+              <img src="{{image}}" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-6 ml-auto {{css-order-lg-1}}">
+              <h2 class="text-white mb-4 name" data-aos="{{css-data-aos}}" data-aos-delay="200">{{{title}}}</h2>
+              <div class="bio pl-lg-5">
+                <span class="text-uppercase text-primary d-block mb-3" data-aos="{{css-data-aos}}" data-aos-delay="300">{{{subtitle}}}</span>
+                <p class="mb-4" data-aos="{{css-data-aos}}" data-aos-delay="400">{{{description}}}</p>
+              </div>
+            </div>
+          </div>
+        {{/workshops.workshops-array}}
+
       </div>
     </div>
 
     <!-- Speakers -->
     <div class="site-section">
       <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4 ">
+            <div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
+              <h2>{{{speakers.title}}}</h2>
+
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <p>{{{speakers.generalDescription}}}</p>
+          </div>
+        </div>
 
         {{#speakers.speakers-array}}
           <div class="row align-items-center speaker">
@@ -231,8 +276,8 @@
             <h2 class="footer-heading text-uppercase mb-4">{{{footer.quicklinksLabel}}}</h2>
             <ul class="list-unstyled">
               <li><a href="{{{navigation.index.href}}}">{{{navigation.index.label}}}</a></li>
+              <li><a href="{{{navigation.activities.href}}}">{{{navigation.activities.label}}}</a></li>
               <li><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
-              <li><a href="{{{navigation.speakers.href}}}">{{{navigation.speakers.label}}}</a></li>
               <li><a href="{{{navigation.news.href}}}">{{{navigation.news.label}}}</a></li>
               <li><a href="{{{navigation.contact.href}}}">{{{navigation.contact.label}}}</a></li>
             </ul>

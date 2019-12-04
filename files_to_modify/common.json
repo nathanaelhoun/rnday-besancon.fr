@@ -6,83 +6,38 @@
   "navigation":{
     "index": {"href": "index.html", "label":"Accueil"},
     "about": {"href": "about.html", "label":"Qui sommes-nous"},
-    "speakers": {"href": "speakers.html", "label":"Conférenciers"},
-    "news": {"href": "news.html", "label":"Actualités"},
+    "activities": {"href": "activites.html", "label":"Activités"},
+    "newsTOMODIFY": {"href": "news.html", "label":"Actualités"},
     "contact": {"href": "contact.html", "label":"Contactez-nous"},
   },
   "speakers": {
-    "label": "Conférenciers",
-    "generalDescription": "Chercheurs et professionnels bisontins de la sécurité numérique (à compléter)",
-    "speakers-array": [
-      {
+    "title": "Conférenciers",
+    "generalDescription": "Information à venir",
+    "speakers-array": [],
+  },
+  "workshops": {
+    "title": "Ateliers",
+    "generalDescription": "Que proposons-nous ?",
+    "workshops-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
         "css-data-aos": "fade-right",
-        "image": "images/person_1.jpg",
-        "name": "Prénom Nom",
-        "quality": "Métier",
-        "description": "Elle est vraiment géniale",
-        "networksLabel": "Suivez Prénom",
-        "networks": [
-          {
-          "icon-class": "icon-facebook",
-          "url": "https://www.facebook.com"
-          }, {
-          "icon-class": "icon-twitter",
-          "url": "https://www.twitter.com"
-          }
-        ],
-      },
-      {
+        "image": "images/escape-game.webp",
+        "title": "Escape game",
+        "subtitle": "Saurez-vous échapper au hacker ?",
+        "description": "Dans cet <i>escape game</i>, vous incarnerez une équipe en situation de crise chargée d'arrêter une attaque pirate en temps réel.",
+      }, {
         "css-order-lg-1": "order-lg-1",
         "css-order-lg-2": "order-lg-2",
         "css-data-aos": "fade-left",
-        "image": "images/person_2.jpg",
-        "name": "Prénom-Composé Nom",
-        "quality": "Métier",
-        "description": "Il est vraiment super",
-        "networksLabel": "Suivez Prénom",
-        "networks": [{
-          "icon-class": "icon-github",
-          "url": "https://www.github.com"
-        }, {
-          "icon-class": "icon-twitter",
-          "url": "https://www.twitter.com"
-        }]
-      },
-      {
-        "css-order-lg-1": "",
-        "css-order-lg-2": "",
-        "css-data-aos": "fade-right",
-        "image": "images/person_3.jpg",
-        "name": "Prénom-Peu-Courant Nom",
-        "quality": "Métier",
-        "description": "Elle est complètement incroyable",
-        "networksLabel": "Suivez Prénom",
-        "networks": [{
-          "icon-class": "icon-facebook",
-          "url": "https://www.facebook.com"
-        }, {
-          "icon-class": "icon-twitter",
-          "url": "https://www.twitter.com"
-        }]
-      },
-      {
-        "css-order-lg-1": "order-lg-1",
-        "css-order-lg-2": "order-lg-2",
-        "css-data-aos": "fade-left",
-        "image": "images/person_4.jpg",
-        "name": "Prénom Nom-Nom2",
-        "quality": "Métier",
-        "description": "Il est complètement inopiné",
-        "networksLabel": "Suivez Prénom",
-        "networks": [{
-          "icon-class": "icon-facebook",
-          "url": "https://www.facebook.com"
-        }, {
-          "icon-class": "icon-twitter",
-          "url": "https://www.twitter.com"
-        }]
+        "image": "images/workshop.webp",
+        "title": "Ateliers",
+        "subtitle": "Apprendre en pratiquant",
+        "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique :
+        <ul>
+          <li>Comment détecter une page d'hameçonnage</li>
+          <li>Autres ateliers à venir...</li>
+        </ul>",
       },
     ],
   },
@@ -183,63 +138,63 @@
         "data-aos-delay":"100",
         "name": "Hélène B.",
         "image": "images/helene.jpg",
-        "quality": "Référente logistique",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"200",
         "name": "Antoine C.",
         "image": "images/antoine.jpg",
-        "quality": "Référent animation",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"300",
         "name": "Lucas C.",
         "image": "images/lucas.jpg",
-        "quality": "Référent animation",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"400",
         "name": "Joseph D.",
         "image": "images/joseph.jpg",
-        "quality": "Référent animation",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"500",
         "name": "Fabian D.",
         "image": "images/fabian.jpg",
-        "quality": "Référent partenariats",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"600",
         "name": "Nathanaël H.",
         "image": "images/nathanael.jpg",
-        "quality": "Référent web",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"700",
         "name": "Baptiste L.-P.",
         "image": "images/baptiste.jpg",
-        "quality": "Référent conférence",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"800",
         "name": "Medhi L.",
         "image": "images/medhi.jpg",
-        "quality": "Référent communication",
+        "quality": "",
         "description": "",
       },
       {
         "data-aos-delay":"900",
         "name": "Valentin P.",
         "image": "images/valentin.jpg",
-        "quality": "Référent photographie",
+        "quality": "",
         "description": "",
       },
     ],
