@@ -35,6 +35,19 @@ h1, h2, h3, h4, h5,
 .bg-black {
   background: #000 !important; }
 
+.right {
+  text-align: left;
+}
+
+.left {
+  text-align: right;
+}
+
+.left li {
+  direction: rtl;
+  list-style-position: inside;
+}
+
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
 
@@ -599,7 +612,7 @@ h1, h2, h3, h4, h5,
   max-width: 1400px; }
 
 .site-hero {
-  margin-bottom: 10rem; }
+  margin-bottom: 1.5rem; }
   .site-hero, .site-hero .row {
     min-height: 700px;
     height: calc(100vh - 95px); }
@@ -659,7 +672,6 @@ h1, h2, h3, h4, h5,
 .speaker {
   margin-bottom: 50px; }
   .speaker .name {
-    left: -80px;
     position: relative; }
     @media (max-width: 1199.98px) {
       .speaker .name {

@@ -90,11 +90,11 @@
               <img src="{{image}}" alt="Image" class="img-fluid">
             </div>
             <div class="col-lg-6 ml-auto {{css-order-lg-1}}">
-              <h2 class="text-white mb-4 name" data-aos="{{css-data-aos}}" data-aos-delay="200">{{{name}}}</h2>
+              <h2 class="text-white mb-4 name {{side}}" data-aos="fade-{{side}}" data-aos-delay="200">{{{name}}}</h2>
               <div class="bio pl-lg-5">
-                <span class="text-uppercase text-primary d-block mb-3" data-aos="{{css-data-aos}}" data-aos-delay="300">{{{quality}}}</span>
-                <p class="mb-4" data-aos="{{css-data-aos}}" data-aos-delay="400">{{{description}}}</p>
-                <p data-aos="{{css-data-aos}}" data-aos-delay="500">
+                <span class="text-uppercase text-primary d-block mb-3 {{side}}" data-aos="fade-{{side}}" data-aos-delay="300">{{{quality}}}</span>
+                <p class="mb-4 {{side}}" data-aos="fade-{{side}}" data-aos-delay="400">{{{description}}}</p>
+                <p class="{{side}}" data-aos="fade-{{side}}" data-aos-delay="500">
                   {{{networksLabel}}} &mdash;
                   {{#networks}}
                     <a href="{{url}}" class="p-2"><span class="{{icon-class}}"></span></a>

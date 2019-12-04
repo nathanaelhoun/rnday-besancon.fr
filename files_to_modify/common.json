@@ -21,7 +21,7 @@
     "workshops-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
-        "css-data-aos": "fade-right",
+        "side": "right",
         "image": "images/escape-game.webp",
         "title": "Escape game",
         "subtitle": "Saurez-vous échapper au hacker ?",
@@ -29,12 +29,12 @@
       }, {
         "css-order-lg-1": "order-lg-1",
         "css-order-lg-2": "order-lg-2",
-        "css-data-aos": "fade-left",
+        "side": "left",
         "image": "images/workshop.webp",
         "title": "Ateliers",
         "subtitle": "Apprendre en pratiquant",
         "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique :
-        <ul>
+        <ul class='left'>
           <li>Comment détecter une page d'hameçonnage</li>
           <li>Autres ateliers à venir...</li>
         </ul>",
