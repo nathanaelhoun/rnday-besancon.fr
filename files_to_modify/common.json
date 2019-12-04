@@ -43,14 +43,14 @@
   },
   "program": {
     "title": "Programme",
-    "description": "Description du programme (à rajouter)",
+    "description": "Nous accueillons des lycéens du Lycée C.N. Ledoux le matin, et l'après-midi les étudiants et professeurs, ainsi que toutes les personnes qui le souhaitent. ",
     "program-array": [
       {
         "css-class": " border-top",
         "data-aos-delay": "200",
         "hour": "8",
         "minute": "30",
-        "description" : "Accueil des élèves du Lycée (rajouter nom lycée)",
+        "description" : "Accueil des élèves du Lycée C.N. Ledoux",
         "speaker": "Étudiants du CMI Informatique",
       },
       {
@@ -66,8 +66,8 @@
         "data-aos-delay": "400",
         "hour": "9",
         "minute": "30",
-        "description" : "Conférence 1 (ouverte à tous) : thème",
-        "speaker": "Intervenant 1",
+        "description" : "Conférence 1 (ouverte à tous) : thème à venir",
+        "speaker": "Intervenant à venir",
       },
       {
         "css-class": " border-top",
@@ -82,8 +82,8 @@
         "data-aos-delay": "600",
         "hour": "14",
         "minute": "00",
-        "description" : "Conférence 2 (ouverte à tous): thème ",
-        "speaker": "Intervenant 2",
+        "description" : "Conférence 2 (ouverte à tous): thème à venir ",
+        "speaker": "Intervenant à venir",
       },
       {
         "css-class": " border-top",
@@ -98,8 +98,8 @@
         "data-aos-delay": "800",
         "hour": "16",
         "minute": "30",
-        "description" : "Conférence 3 (ouverte à tous): thème",
-        "speaker": "Intervenant 3",
+        "description" : "Conférence 3 (ouverte à tous): thème à venir",
+        "speaker": "Intervenant à venir",
       },
       {
         "css-class": " border-top",
@@ -107,7 +107,7 @@
         "hour": "17",
         "minute": "00",
         "description" : "Conclusion de la journée",
-        "speaker": "",
+        "speaker": "Étudiants du CMI Informatique",
       },
     ],
   },
@@ -213,7 +213,7 @@
     ]
   },
   "footer": {
-    "aboutEvent": {"label": "À propos de l'événément", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto."},
+    "aboutEvent": {"label": "À propos de l'événément", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité informatique, organisé par les étudiants du CMI Informatique"},
     "quicklinksLabel":"Liens rapides",
     "socialNetworks": {
       "label":"Suivez-nous sur nos réseaux",

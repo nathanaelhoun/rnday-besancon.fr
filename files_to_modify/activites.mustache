@@ -68,6 +68,38 @@
       </div>
     </div>
 
+    <!-- Program -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="site-section-heading">
+              <h2>{{{program.title}}}</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <p>{{{program.description}}}</p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch program">
+
+          {{#program.program-array}}
+            <div class="col-12 {{css-class}} border-bottom py-5" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
+              <div class="row align-items-stretch">
+                <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">{{{hour}}}h</span><span>{{{minute}}}</span></div>
+                <div class="col-md-9">
+                  <h2 class="text-white">{{{description}}}</h2>
+                  <span>{{{speaker}}}</span>
+                </div>
+              </div>
+            </div>
+          {{/program.program-array}}
+
+        </div>
+      </div>
+    </div>
+
     <!-- Workshops -->
     <div class="site-section">
       <div class="container">
@@ -137,38 +169,6 @@
             </div>
           </div>
         {{/speakers.speakers-array}}
-      </div>
-    </div>
-
-    <!-- Program -->
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="site-section-heading">
-              <h2>{{{program.title}}}</h2>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <p>{{{program.description}}}</p>
-          </div>
-        </div>
-
-        <div class="row align-items-stretch program">
-
-          {{#program.program-array}}
-            <div class="col-12 {{css-class}} border-bottom py-5" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
-              <div class="row align-items-stretch">
-                <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">{{{hour}}}h</span><span>{{{minute}}}</span></div>
-                <div class="col-md-9">
-                  <h2 class="text-white">{{{description}}}</h2>
-                  <span>{{{speaker}}}</span>
-                </div>
-              </div>
-            </div>
-          {{/program.program-array}}
-
-        </div>
       </div>
     </div>
 
