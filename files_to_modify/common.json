@@ -246,33 +246,14 @@
   },
   "sponsors": {
     "title": "Sponsors",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.",
+    "description": "",
     "become": "Devenir un sponsor",
     "sponsors-array": [
       {
         "data-aos-delay": "200",
         "name": "Réseau Figure",
         "logo": "images/reseau_figure.png",
-      },
-      {
-        "data-aos-delay": "300",
-        "name": "Nom sponsor",
-        "logo": "images/logo_2.png",
-      },
-      {
-        "data-aos-delay": "400",
-        "name": "Nom sponsor",
-        "logo": "images/logo_3.png",
-      },
-      {
-        "data-aos-delay": "500",
-        "name": "Nom sponsor",
-        "logo": "images/logo_4.png",
-      },
-      {
-        "data-aos-delay": "600",
-        "name": "Nom sponsor",
-        "logo": "images/logo_5.png",
+        "link": "https://reseau-figure.fr/",
       },
     ]
   },
