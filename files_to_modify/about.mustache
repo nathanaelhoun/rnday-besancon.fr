@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-  <title>À propos &mdash; {{{page.title}}}</title>
+  <title>À propos &mdash; {{{page.titlesuffix}}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -82,24 +82,12 @@
             <p>{{{whoAreWe.description.part2}}}</p>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-12" data-aos="fade-up" data-aos-delay="300">
-            <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-          </div>
-        </div>
         <div class="row">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">{{{whoAreWe.event.title}}}</span></div>
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
             <p>{{{whoAreWe.event.description.part1}}}</p>
             <p>{{{whoAreWe.event.description.part2}}}</p>
             <p class="mb-5">{{{whoAreWe.event.description.part3}}}</p>
-
-            <div class="d-flex coordinator align-items-center">
-              <div class="mr-4">
-                <img src="{{whoAreWe.event.author.image}}" alt="Photo de {{whoAreWe.event.author.name}}" class="img-fluid">
-              </div>
-              <span>Par <span class="text-white">{{{whoAreWe.event.author.name}}}</span> <br> {{{whoAreWe.event.author.quality}}}</span>
-            </div>
           </div>
         </div>
       </div>
@@ -109,12 +97,19 @@
     <div class="site-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
-          <div class="col-lg-4 mb-5">
+          <div class="col-lg-10 mb-5">
             <div class="site-section-heading" data-aos="fade-up">
               <h2 class="text-center">{{{ourTeam.title}}}</h2>
             </div>
           </div>
         </div>
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-10" data-aos="fade-up" data-aos-delay="300">
+            <img src="{{ourTeam.image}}" alt="{{ourTeam.title}}" class="img-fluid">
+          </div>
+        </div>
+
 
         <div class="row">
 
