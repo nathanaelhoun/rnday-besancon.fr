@@ -222,7 +222,7 @@
     },
     "credit": "Copyright &copy;&nbsp;<script>
       document.write(new Date().getFullYear());
-    </script>&nbsp;Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank'>Colorlib</a>",
+    </script>&nbsp;Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
     "signature": "Adapté par Fabian D. & <a href='h&nbsp;ttps://nathanaelhoun.fr'>Nathanaël H.</a> pour leur promotion CMI",
   }
 }
