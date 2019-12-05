@@ -34,7 +34,7 @@
         "title": "Ateliers",
         "subtitle": "Apprendre en pratiquant",
         "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique :
-        <ul class='left'>
+        <ul class='left' data-aos='fade-left' data-aos-delay='300'>
           <li>Comment détecter une page d'hameçonnage</li>
           <li>Autres ateliers à venir...</li>
         </ul>",
@@ -47,7 +47,7 @@
     "program-array": [
       {
         "css-class": " border-top",
-        "data-aos-delay": "200",
+        "data-aos-delay": "100",
         "hour": "8",
         "minute": "30",
         "description" : "Accueil des élèves du Lycée C.N. Ledoux",
@@ -55,7 +55,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "300",
+        "data-aos-delay": "150",
         "hour": "9",
         "minute": "00",
         "description" : "Escape game & ateliers pour les lycéens ",
@@ -63,7 +63,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "400",
+        "data-aos-delay": "200",
         "hour": "9",
         "minute": "30",
         "description" : "Conférence 1 (ouverte à tous) : thème à venir",
@@ -71,7 +71,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "500",
+        "data-aos-delay": "250",
         "hour": "10",
         "minute": "00",
         "description" : "Escape game & ateliers pour les lycéens ",
@@ -79,7 +79,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "600",
+        "data-aos-delay": "300",
         "hour": "14",
         "minute": "00",
         "description" : "Conférence 2 (ouverte à tous): thème à venir ",
@@ -87,7 +87,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "700",
+        "data-aos-delay": "350",
         "hour": "14",
         "minute": "30",
         "description" : "Escape game & ateliers ouverts à tous",
@@ -95,7 +95,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "800",
+        "data-aos-delay": "400",
         "hour": "16",
         "minute": "30",
         "description" : "Conférence 3 (ouverte à tous): thème à venir",
@@ -103,7 +103,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "900",
+        "data-aos-delay": "450",
         "hour": "17",
         "minute": "00",
         "description" : "Conclusion de la journée",
@@ -142,56 +142,56 @@
         "description": "",
       },
       {
-        "data-aos-delay":"200",
+        "data-aos-delay":"150",
         "name": "Antoine C.",
         "image": "images/antoine.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"300",
+        "data-aos-delay":"200",
         "name": "Lucas C.",
         "image": "images/lucas.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"400",
+        "data-aos-delay":"250",
         "name": "Joseph D.",
         "image": "images/joseph.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"500",
+        "data-aos-delay":"300",
         "name": "Fabian D.",
         "image": "images/fabian.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"600",
+        "data-aos-delay":"350",
         "name": "Nathanaël H.",
         "image": "images/nathanael.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"700",
+        "data-aos-delay":"400",
         "name": "Baptiste L.-P.",
         "image": "images/baptiste.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"800",
+        "data-aos-delay":"450",
         "name": "Medhi L.",
         "image": "images/medhi.jpg",
         "quality": "",
         "description": "",
       },
       {
-        "data-aos-delay":"900",
+        "data-aos-delay":"500",
         "name": "Valentin P.",
         "image": "images/valentin.jpg",
         "quality": "",
@@ -205,7 +205,7 @@
     "become": "Devenir un sponsor",
     "sponsors-array": [
       {
-        "data-aos-delay": "200",
+        "data-aos-delay": "100",
         "name": "Réseau Figure",
         "logo": "images/reseau_figure.png",
         "link": "https://reseau-figure.fr/",
@@ -223,6 +223,6 @@
     "credit": "Copyright &copy;&nbsp;<script>
       document.write(new Date().getFullYear());
     </script>&nbsp;Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank'>Colorlib</a>",
-    "signature": "Adapté par Fabian D. & <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour leur promotion CMI",
+    "signature": "Adapté par Fabian D. & <a href='h&nbsp;ttps://nathanaelhoun.fr'>Nathanaël H.</a> pour leur promotion CMI",
   }
 }
