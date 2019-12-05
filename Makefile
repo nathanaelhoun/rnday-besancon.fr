@@ -16,8 +16,11 @@ fr:
 	minify $(FINAL_DIR)/index.big.html > $(FINAL_DIR)/index.html 
 	minify $(FINAL_DIR)/contact.big.html > $(FINAL_DIR)/contact.html 
 	rm -f $(FINAL_DIR)/*.big.*
+	rm -f $(FINAL_DIR)/css/all.min.css
+	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css 	
 
 clean:
 	rm -f $(FINAL_DIR)/*.html
+	rm -f $(FINAL_DIR)/css/all.min.css
 
 mrproper: clean
