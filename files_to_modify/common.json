@@ -213,7 +213,7 @@
     ]
   },
   "footer": {
-    "aboutEvent": {"label": "À propos de l'événément", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité informatique, organisé par les étudiants du CMI Informatique"},
+    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité informatique, organisé par les étudiants du CMI Informatique"},
     "quicklinksLabel":"Liens rapides",
     "socialNetworks": {
       "label":"Suivez-nous sur nos réseaux",
