@@ -22,7 +22,7 @@
         "css-order-lg-1": "",
         "css-order-lg-2": "",
         "side": "right",
-        "image": "images/escape-game.webp",
+        "image": "images/escape-game.jpg",
         "title": "Escape game",
         "subtitle": "Saurez-vous échapper au hacker ?",
         "description": "Dans cet <i>escape game</i>, vous incarnerez une équipe en situation de crise chargée d'arrêter une attaque pirate en temps réel.",
@@ -30,7 +30,7 @@
         "css-order-lg-1": "order-lg-1",
         "css-order-lg-2": "order-lg-2",
         "side": "left",
-        "image": "images/workshop.webp",
+        "image": "images/workshop.jpg",
         "title": "Ateliers",
         "subtitle": "Apprendre en pratiquant",
         "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique :
