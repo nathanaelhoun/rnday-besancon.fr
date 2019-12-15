@@ -8,8 +8,8 @@
   <meta name="description" content="À propos des étudiants du CMI Informatique de Besançon, du Cursus Master en Ingénierie et du réseau Figure.">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="icon" href="favicon.ico" />
 
@@ -110,18 +110,18 @@
         <div class="row">
 
           {{#ourTeam.ourTeam-array}}
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="{{data-aos-delay}}">
-            <div class="testimony text-center">
-              <figure>
-                <img src="{{image}}" alt="Image de {{name}}" class="img-fluid" loading="lazy">
-              </figure>
-              <blockquote>
-                <p class="author mb-0">{{{name}}}</p>
-                <p class="text-muted mb-4">{{{quality}}}</p>
-                <p>{{{description}}}</p>
-              </blockquote>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="{{data-aos-delay}}">
+              <div class="testimony text-center">
+                <figure>
+                  <img src="{{image}}" alt="Image de {{name}}" class="img-fluid" loading="lazy">
+                </figure>
+                <blockquote>
+                  <p class="author mb-0">{{{name}}}</p>
+                  <p class="text-muted mb-4">{{{quality}}}</p>
+                  <p>{{{description}}}</p>
+                </blockquote>
+              </div>
             </div>
-          </div>
           {{/ourTeam.ourTeam-array}}
 
         </div>
@@ -147,10 +147,10 @@
           {{#sponsors.sponsors-array}}
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
               <a href="{{link}}">
-              <div style="text-align: center; margin: 20px">
-                <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
-                <h2 style="margin-top: 1em;">{{name}}</h2>
-              </div>
+                <div style="text-align: center; margin: 20px">
+                  <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
+                  <h2 style="margin-top: 1em;">{{name}}</h2>
+                </div>
               </a>
             </div>
           {{/sponsors.sponsors-array}}

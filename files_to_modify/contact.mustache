@@ -8,7 +8,7 @@
   <meta name="description" content="Contacter les étudiants du CMI Informatique de Besançon organisateur de la R&Day 2020 Sécurité Informatique">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.min.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="icon" href="favicon.ico" />
@@ -77,7 +77,7 @@
             </div>
 
             <form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeVqx_yfg2RZ9vO0MeZtQD3jMnOTAQ5WG4A78M29tuX75Zk7A/formResponse?" target="hidden_iframe" onsubmit="showValidation();">
-          		<div id="form-validation" style="display:none">&#10004; Votre message a bien été envoyé ! </div>
+              <div id="form-validation" style="display:none">&#10004; Votre message a bien été envoyé ! </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
@@ -89,7 +89,7 @@
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="" for="email">Adresse mail</label>
-                  <input  class="form-control" type="email" name="entry.439569742" id="entry.439569742" required>
+                  <input class="form-control" type="email" name="entry.439569742" id="entry.439569742" required>
                 </div>
               </div>
 
@@ -115,7 +115,9 @@
             </form>
           </div>
 
-          <script type="text/javascript">var submitted = false;</script>
+          <script type="text/javascript">
+            var submitted = false;
+          </script>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
           <script type="text/javascript">
             showValidation = function() {
@@ -144,7 +146,9 @@
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Adresse mail</p>
               <p class="mb-0"><a href="mailto:contact@rnday-besancon.fr">contact@rnday-besancon.fr</a></p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.5253906515118!2d5.9827220510212715!3d47.24542877906007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d63b0f2119f09%3A0x3098060bb8f9fdbf!2sProp%C3%A9deutique%2C%2025000%20Besan%C3%A7on!5e0!3m2!1sfr!2sfr!4v1574993582120!5m2!1sfr!2sfr" width="400" style="max-width: 100%;" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.5253906515118!2d5.9827220510212715!3d47.24542877906007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d63b0f2119f09%3A0x3098060bb8f9fdbf!2sProp%C3%A9deutique%2C%2025000%20Besan%C3%A7on!5e0!3m2!1sfr!2sfr!4v1574993582120!5m2!1sfr!2sfr"
+              width="400" style="max-width: 100%;" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>

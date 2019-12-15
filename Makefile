@@ -18,7 +18,8 @@ fr:
 
 css:
 	rm -f $(FINAL_DIR)/css/all.min.css
-	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css 	
+	minify $(FINAL_DIR)/fonts/icomoon/style.css > $(FINAL_DIR)/fonts/icomoon/style.min.css 	 	
+	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css
 
 clean:
 	rm -f $(FINAL_DIR)/*.html
