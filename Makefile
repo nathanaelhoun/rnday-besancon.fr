@@ -1,8 +1,7 @@
-TARGETS = fr
 TEMPLATES_DIR = files_to_modify
 FINAL_DIR = docs
 
-all: $(TARGETS)
+all: fr css js
 
 fr:
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/about.mustache > $(FINAL_DIR)/about.big.html
@@ -16,8 +15,15 @@ fr:
 	minify $(FINAL_DIR)/index.big.html > $(FINAL_DIR)/index.html 
 	minify $(FINAL_DIR)/contact.big.html > $(FINAL_DIR)/contact.html 
 	rm -f $(FINAL_DIR)/*.big.*
+
+css:
 	rm -f $(FINAL_DIR)/css/all.min.css
-	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css 	
+	minify $(FINAL_DIR)/fonts/icomoon/style.css > $(FINAL_DIR)/fonts/icomoon/style.min.css 	 	
+	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css
+
+js:
+	rm -f $(FINAL_DIR)/js/all.min.js
+	minify $(FINAL_DIR)/js/*.js > $(FINAL_DIR)/js/all.min.js
 
 clean:
 	rm -f $(FINAL_DIR)/*.html

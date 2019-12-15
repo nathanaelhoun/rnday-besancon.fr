@@ -12,8 +12,29 @@
   },
   "speakers": {
     "title": "Conférenciers",
-    "generalDescription": "Information à venir",
-    "speakers-array": [],
+    "generalDescription": "Plus d'information à venir",
+    "speakers-array": [
+      {
+        "css-order-lg-1": "",
+        "css-order-lg-2": "",
+        "side": "right",
+        "image": "https://members.femto-st.fr/alexandre-vernotte/sites/femto-st.fr.alexandre-vernotte/files/styles/photo/public/picture.jpg?itok=YFqPTOQx",
+        "name": "Alexandre Vernotte",
+        "quality": "Chercheur à l'institut FEMTO-ST de Besançon",
+        "description": "Fort de ses recherches en tests de vulnérabilité, Alexandre Vernotte nous parlera du redoutable virus Stuxnet",
+        "networksLabel": "En savoir plus sur A. Vernotte",
+        "networks" : [
+          {
+            "url": "https://members.femto-st.fr/alexandre-vernotte/",
+            "icon-class": "icon-external-link",
+          },
+          {
+            "url": "https://www.femto-st.fr/en/femto-people/avernott",
+            "icon-class": "icon-book",
+          },
+        ],
+      },
+    ],
   },
   "workshops": {
     "title": "Ateliers",
@@ -222,7 +243,7 @@
     },
     "credit": "Copyright &copy;&nbsp;<script>
       document.write(new Date().getFullYear());
-    </script>&nbsp;Tous droits réservés | Ce site a été réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
-    "signature": "Adapté par Fabian D. & <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour leur promotion CMI",
+    </script>&nbsp;Tous droits réservés | Modèle réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
+    "signature": "Adapté par <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour sa promotion CMI",
   }
 }

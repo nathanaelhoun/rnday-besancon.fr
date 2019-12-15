@@ -9,7 +9,7 @@
   <link rel="canonical" href="index.html" />
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.min.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="icon" href="favicon.ico" />
@@ -116,14 +116,14 @@
         {{#speakers.speakers-array}}
           <div class="row align-items-center speaker">
             <div class="col-lg-6 mb-5 mb-lg-0 {{css-order-lg-2}}" data-aos="fade" data-aos-delay="100">
-              <img src="{{image}}" alt="Image" class="img-fluid">
+              <img src="{{image}}" alt="Image {{name}}" class="img-fluid" loading="lazy">
             </div>
             <div class="col-lg-6 ml-auto {{css-order-lg-1}}">
-              <h2 class="text-white mb-4 name" data-aos="{{css-data-aos}}" data-aos-delay="200">{{{name}}}</h2>
+              <h2 class="text-white mb-4 name {{side}}" data-aos="fade-{{side}}" data-aos-delay="150">{{{name}}}</h2>
               <div class="bio pl-lg-5">
-                <span class="text-uppercase text-primary d-block mb-3" data-aos="{{css-data-aos}}" data-aos-delay="300">{{{quality}}}</span>
-                <p class="mb-4" data-aos="{{css-data-aos}}" data-aos-delay="400">{{{description}}}</p>
-                <p data-aos="{{css-data-aos}}" data-aos-delay="500">
+                <span class="text-uppercase text-primary d-block mb-3 {{side}}" data-aos="fade-{{side}}" data-aos-delay="200">{{{quality}}}</span>
+                <p class="mb-4 {{side}}" data-aos="fade-{{side}}" data-aos-delay="300">{{{description}}}</p>
+                <p class="{{side}}" data-aos="fade-{{side}}" data-aos-delay="350">
                   {{{networksLabel}}} &mdash;
                   {{#networks}}
                     <a href="{{url}}" class="p-2"><span class="{{icon-class}}"></span></a>
