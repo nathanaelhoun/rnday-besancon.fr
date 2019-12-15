@@ -55,9 +55,14 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Journée Recherche et Développement 2020</span>
+            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Journée Recherche et Développement</span>
             <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="150">Cybersécurité en 2020</h1>
             <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="200">18 Mars 2020, UFR Sciences et Techniques, Besançon</span>
+            <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="200">
+              Rejoignez nos réseaux
+              <a href="{{footer.socialNetworks.facebookLink}}" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+              <a href="{{footer.socialNetworks.twitterLink}}" class="p-2"><span class="icon-twitter"></span></a>
+            </span>
             <!-- <a href="activites.html" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>En savoir plus</span></a> -->
             <a href="contact.html#adresse" class="btn-custom" data-aos="fade-up" data-aos-delay="300"><span>S'y rendre</span></a>
           </div>
@@ -116,7 +121,7 @@
         {{#speakers.speakers-array}}
           <div class="row align-items-center speaker">
             <div class="col-lg-6 mb-5 mb-lg-0 {{css-order-lg-2}}" data-aos="fade" data-aos-delay="100">
-              <img src="{{image}}" alt="Image" class="img-fluid" loading="lazy">
+              <img src="{{image}}" alt="Image {{name}}" class="img-fluid" loading="lazy">
             </div>
             <div class="col-lg-6 ml-auto {{css-order-lg-1}}">
               <h2 class="text-white mb-4 name {{side}}" data-aos="fade-{{side}}" data-aos-delay="150">{{{name}}}</h2>
@@ -188,10 +193,10 @@
           {{#sponsors.sponsors-array}}
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
               <a href="{{link}}">
-              <div style="text-align: center; margin: 20px">
-                <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
-                <h2 style="margin-top: 1em;">{{name}}</h2>
-              </div>
+                <div style="text-align: center; margin: 20px">
+                  <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
+                  <h2 style="margin-top: 1em;">{{name}}</h2>
+                </div>
               </a>
             </div>
           {{/sponsors.sponsors-array}}
