@@ -1,7 +1,7 @@
 TEMPLATES_DIR = files_to_modify
 FINAL_DIR = docs
 
-all: fr css js
+all: fr css
 
 fr:
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/about.mustache > $(FINAL_DIR)/about.big.html
