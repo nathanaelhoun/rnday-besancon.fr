@@ -464,11 +464,11 @@
 }
 .icon-thumb-tack:before {
   content: "\f08d";
-}
+}*/
 .icon-external-link:before {
   content: "\f08e";
 }
-.icon-sign-in:before {
+/*.icon-sign-in:before {
   content: "\f090";
 }
 .icon-trophy:before {
