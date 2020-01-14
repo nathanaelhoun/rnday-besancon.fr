@@ -143,6 +143,43 @@
       </div>
     </div>
 
+    <!-- Sponsors -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4 ">
+            <div class="site-section-heading" data-aos="fade-up">
+              <h2>{{{sponsors.title}}}</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <p>{{{sponsors.description}}}</p>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+
+          {{#sponsors.sponsors-array}}
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
+            <a href="{{link}}">
+              <div style="text-align: center; margin: 20px">
+                <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
+                <h2 style="margin-top: 1em;">{{name}}</h2>
+              </div>
+            </a>
+          </div>
+          {{/sponsors.sponsors-array}}
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-12 text-center pt-5">
+            <a href="contact.html" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>{{{sponsors.become}}}</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Program -->
     <div class="site-section">
       <div class="container">
@@ -171,43 +208,6 @@
             </div>
           {{/program.program-array}}
 
-        </div>
-      </div>
-    </div>
-
-    <!-- Sponsors -->
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4 ">
-            <div class="site-section-heading" data-aos="fade-up">
-              <h2>{{{sponsors.title}}}</h2>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <p>{{{sponsors.description}}}</p>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-
-          {{#sponsors.sponsors-array}}
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
-              <a href="{{link}}">
-                <div style="text-align: center; margin: 20px">
-                  <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid" loading="lazy">
-                  <h2 style="margin-top: 1em;">{{name}}</h2>
-                </div>
-              </a>
-            </div>
-          {{/sponsors.sponsors-array}}
-
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-12 text-center pt-5">
-            <a href="contact.html" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>{{{sponsors.become}}}</span></a>
-          </div>
         </div>
       </div>
     </div>

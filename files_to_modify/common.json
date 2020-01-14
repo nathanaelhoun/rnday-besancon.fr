@@ -231,6 +231,12 @@
         "logo": "images/reseau_figure.png",
         "link": "https://reseau-figure.fr/",
       },
+      {
+        "data-aos-delay": "200",
+        "name": "Jet1oeil",
+        "logo": "images/logo_jet1oeil.png",
+        "link": "http://www.jet1oeil.com/",
+      },
     ]
   },
   "footer": {
