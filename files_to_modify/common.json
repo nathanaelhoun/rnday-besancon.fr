@@ -221,9 +221,9 @@
     ],Responsable escape game<br/>Responsable photographie<br/>Contact lycées
   },
   "sponsors": {
-    "title": "Sponsors",
+    "title": "Partenaires",
     "description": "",
-    "become": "Devenir un sponsor",
+    "become": "Devenir partenaire de l'évènement",
     "sponsors-array": [
       {
         "data-aos-delay": "100",
