@@ -11,8 +11,8 @@
     "contact": {"href": "contact.html", "label":"Contactez-nous"},
   },
   "speakers": {
-    "title": "Conférenciers",
-    "generalDescription": "Plus d'information à venir",
+    "title": "Écouter",
+    "generalDescription": "Plus d'informations à venir",
     "speakers-array": [
       {
         "css-order-lg-1": "",
@@ -37,8 +37,8 @@
     ],
   },
   "workshops": {
-    "title": "Ateliers",
-    "generalDescription": "Que proposons-nous ?",
+    "title": "Pratiquer",
+    "generalDescription": "",
     "workshops-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
@@ -252,7 +252,7 @@
     ]
   },
   "footer": {
-    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité informatique, organisé par les étudiants du CMI Informatique"},
+    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité numérique, organisé par les étudiants du CMI Informatique de Besançon"},
     "quicklinksLabel":"Liens rapides",
     "socialNetworks": {
       "label":"Suivez-nous sur nos réseaux",
