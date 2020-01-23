@@ -237,6 +237,18 @@
         "logo": "images/logo_jet1oeil.png",
         "link": "http://www.jet1oeil.com/",
       },
+      {
+        "data-aos-delay": "300",
+        "name": "UFR Sciences et Techniques",
+        "logo": "images/Logo_UFRST_UFC_2018.png",
+        "link": "http://sciences.univ-fcomte.fr/",
+      },
+      {
+        "data-aos-delay": "400",
+        "name": "Association CMI Franche-Comté",
+        "logo": "images/logo_asso_cmi_fc.png",
+        "link": "http://facebook.fr/AssoCMI.FC/",
+      },
     ]
   },
   "footer": {
