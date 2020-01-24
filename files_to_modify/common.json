@@ -1,6 +1,6 @@
 {
   "page":{
-    "titlesuffix" : "R&Day Besançon 2020 Sécurité Informatique",
+    "titlesuffix" : "R&Day Besançon 2020 Comprendre la Sécurité Numérique",
     "h1": {"1": "R&", "2": "Day"},
   },
   "navigation":{
@@ -11,8 +11,8 @@
     "contact": {"href": "contact.html", "label":"Contactez-nous"},
   },
   "speakers": {
-    "title": "Conférenciers",
-    "generalDescription": "Plus d'information à venir",
+    "title": "Écouter",
+    "generalDescription": "Plus d'informations à venir",
     "speakers-array": [
       {
         "css-order-lg-1": "",
@@ -37,8 +37,8 @@
     ],
   },
   "workshops": {
-    "title": "Ateliers",
-    "generalDescription": "Que proposons-nous ?",
+    "title": "Pratiquer",
+    "generalDescription": "",
     "workshops-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
@@ -157,63 +157,63 @@
     "image": "images/cmi_informatique.jpg",
     "ourTeam-array": [{
         "data-aos-delay":"100",
-        "name": "Hélène B.",
+        "name": "Hélène",
         "image": "images/helene.jpg",
         "quality": "Référent logistique<br/>Conception d'un atelier",
         "description": "",
       },
       {
         "data-aos-delay":"150",
-        "name": "Antoine C.",
+        "name": "Antoine",
         "image": "images/antoine.jpg",
         "quality": "Conception de l’escape game<br/>Référent communication étudiants",
         "description": "",
       },
       {
         "data-aos-delay":"200",
-        "name": "Lucas C.",
+        "name": "Lucas",
         "image": "images/lucas.jpg",
         "quality": "Conception de l’escape game<br/>Référent logistique",
         "description": "",
       },
       {
         "data-aos-delay":"250",
-        "name": "Joseph D.",
+        "name": "Joseph",
         "image": "images/joseph.jpg",
         "quality": "Référent  graphisme<br/>Conception d’ateliers",
         "description": "",
       },
       {
         "data-aos-delay":"300",
-        "name": "Fabian D.",
+        "name": "Fabian",
         "image": "images/fabian.jpg",
         "quality": "Référent sponsors et contact lycées<br/>Conception de l’escape game",
         "description": "",
       },
       {
         "data-aos-delay":"350",
-        "name": "Nathanaël H.",
+        "name": "Nathanaël",
         "image": "images/nathanael.jpg",
         "quality": "Référent communication web<br/>Référent des ateliers",
         "description": "",
       },
       {
         "data-aos-delay":"400",
-        "name": "Baptiste L.-P.",
+        "name": "Baptiste",
         "image": "images/baptiste.jpg",
         "quality": "Référent conférences<br/>Conception d'un atelier",
         "description": "",
       },
       {
         "data-aos-delay":"450",
-        "name": "Medhi L.",
+        "name": "Medhi",
         "image": "images/medhi.jpg",
         "quality": "Référent réseaux sociaux<br/>Conception d'un atelier",
         "description": "",
       },
       {
         "data-aos-delay":"500",
-        "name": "Valentin P.",
+        "name": "Valentin",
         "image": "images/valentin.jpg",
         "quality": "Référent photo et contact lycées<br/>Référent escape game",
         "description": "",
@@ -228,34 +228,49 @@
       {
         "data-aos-delay": "100",
         "name": "Réseau Figure",
+        "description":"Formation à l’Ingénierie par des Universités de Recherche",
         "logo": "images/reseau_figure.png",
         "link": "https://reseau-figure.fr/",
       },
       {
         "data-aos-delay": "200",
         "name": "Jet1oeil",
+        "description":"Solutions de vidéosurveillance",
         "logo": "images/logo_jet1oeil.png",
         "link": "http://www.jet1oeil.com/",
       },
       {
+        "data-aos-delay": "300",
+        "name": "UFR Sciences et Techniques",
+        "description":"Université de Franche-Comté",
+        "logo": "images/Logo_UFRST_UFC_2018.png",
+        "link": "http://sciences.univ-fcomte.fr/",
+      },
+      {
+        "data-aos-delay": "400",
+        "name": "Association CMI Franche-Comté",
+        "description":"Étudiants en Cursus Master en Ingénierie",
+        "logo": "images/logo_asso_cmi_fc.png",
+        "link": "http://facebook.fr/AssoCMI.FC/",
+      },
+      {
         "data-aos-delay": "500",
         "name": "Voyage Heure",
+        "description":"Escape game à Besançon",
         "logo": "images/voyage_heure.png",
-        "link": "https://levoyageheure.com/",
+        "link": "https://levoyageheure",
       },
     ]
   },
   "footer": {
-    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité informatique, organisé par les étudiants du CMI Informatique"},
+    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité numérique, organisé par les étudiants du CMI Informatique de Besançon"},
     "quicklinksLabel":"Liens rapides",
     "socialNetworks": {
       "label":"Suivez-nous sur nos réseaux",
       "facebookLink":"https://www.facebook.com/rndaybesancon",
       "twitterLink":"https://twitter.com/rnday_besancon",
     },
-    "credit": "Copyright &copy;&nbsp;<script>
-      document.write(new Date().getFullYear());
-    </script>&nbsp;Tous droits réservés | Modèle réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
+    "credit": "Copyright &copy;&nbsp;2020&nbsp;Tous droits réservés | Modèle réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
     "signature": "Adapté par <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour sa promotion CMI",
   }
 }
