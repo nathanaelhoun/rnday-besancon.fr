@@ -249,6 +249,12 @@
         "logo": "images/logo_asso_cmi_fc.png",
         "link": "http://facebook.fr/AssoCMI.FC/",
       },
+      {
+        "data-aos-delay": "500",
+        "name": "Voyage Heure",
+        "logo": "images/voyage_heure.png",
+        "link": "https://levoyageheure.com/",
+      },
     ]
   },
   "footer": {
