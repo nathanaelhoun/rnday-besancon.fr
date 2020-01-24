@@ -228,32 +228,37 @@
       {
         "data-aos-delay": "100",
         "name": "Réseau Figure",
+        "description":"Formation à l’Ingénierie par des Universités de Recherche",
         "logo": "images/reseau_figure.png",
         "link": "https://reseau-figure.fr/",
       },
       {
         "data-aos-delay": "200",
         "name": "Jet1oeil",
+        "description":"Solutions de vidéosurveillance",
         "logo": "images/logo_jet1oeil.png",
         "link": "http://www.jet1oeil.com/",
       },
       {
         "data-aos-delay": "300",
         "name": "UFR Sciences et Techniques",
+        "description":"Université de Franche-Comté",
         "logo": "images/Logo_UFRST_UFC_2018.png",
         "link": "http://sciences.univ-fcomte.fr/",
       },
       {
         "data-aos-delay": "400",
         "name": "Association CMI Franche-Comté",
+        "description":"Étudiants en Cursus Master en Ingénierie",
         "logo": "images/logo_asso_cmi_fc.png",
         "link": "http://facebook.fr/AssoCMI.FC/",
       },
       {
         "data-aos-delay": "500",
         "name": "Voyage Heure",
+        "description":"Escape game à Besançon",
         "logo": "images/voyage_heure.png",
-        "link": "https://levoyageheure.com/",
+        "link": "https://levoyageheure",
       },
     ]
   },
