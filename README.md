@@ -1,6 +1,7 @@
 # rnday-besancon.fr
 
 Site web pour la promotion de l'événement organisé par les CMI informatique de Besançon en 2020
+Disponible sur https://rnday-besancon.fr
 
 ## Organisation
 - Le contenu final du site se trouve dans `docs/`.
