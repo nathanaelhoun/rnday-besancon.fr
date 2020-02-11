@@ -54,11 +54,7 @@
         "image": "images/workshop.jpg",
         "title": "Ateliers",
         "subtitle": "Apprendre en pratiquant",
-        "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique :
-        <ul class='left' data-aos='fade-left' data-aos-delay='300'>
-          <li>Comment détecter une page d'hameçonnage</li>
-          <li>Autres ateliers à venir...</li>
-        </ul>",
+        "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique. Venez les découvrir sur place ! ",
       },
     ],
   },
@@ -78,29 +74,13 @@
         "css-class": " border-top",
         "data-aos-delay": "150",
         "hour": "9",
-        "minute": "00",
-        "description" : "Escape game & ateliers pour les lycéens ",
-        "speaker": "Étudiants du CMI Informatique",
-      },
-      {
-        "css-class": " border-top",
-        "data-aos-delay": "200",
-        "hour": "9",
         "minute": "30",
         "description" : "Conférence 1 (ouverte à tous) : thème à venir",
         "speaker": "Intervenant à venir",
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "250",
-        "hour": "10",
-        "minute": "00",
-        "description" : "Escape game & ateliers pour les lycéens ",
-        "speaker": "Étudiants du CMI Informatique",
-      },
-      {
-        "css-class": " border-top",
-        "data-aos-delay": "300",
+        "data-aos-delay": "200",
         "hour": "14",
         "minute": "00",
         "description" : "Conférence 2 (ouverte à tous): thème à venir ",
@@ -108,7 +88,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "350",
+        "data-aos-delay": "250",
         "hour": "14",
         "minute": "30",
         "description" : "Escape game & ateliers ouverts à tous",
@@ -116,7 +96,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "400",
+        "data-aos-delay": "300",
         "hour": "16",
         "minute": "30",
         "description" : "Conférence 3 (ouverte à tous): thème à venir",
@@ -124,7 +104,7 @@
       },
       {
         "css-class": " border-top",
-        "data-aos-delay": "450",
+        "data-aos-delay": "350",
         "hour": "17",
         "minute": "00",
         "description" : "Conclusion de la journée",
@@ -141,7 +121,7 @@
     "event": {
       "title": "La R&Day",
       "description": {
-          "part1": "La Journée Recherche et Développement, ou <i style='color: #ff5733;'>R&Day</i> comme nous l'appelons, est un événement organisé dans le cadre de la formation CMI par les étudiants en 2<sup>ème</sup> année de Licence.",
+          "part1": "La Journée Recherche et Développement, ou <i style='color: #ff5733;'>R&Day</i> comme nous l'appelons, est un évènement organisé dans le cadre de la formation CMI par les étudiants en 2<sup>ème</sup> année de Licence.",
           "part2": "Elle est l'occasion pour nous d'apprendre à créer un événément, mais surtout de vous faire entrer dans notre univers en vous faisant découvrir un pan de notre corps de métier : la sécurité dans le monde de l'Informatique.",
           "part3": "",
         },
@@ -263,14 +243,14 @@
     ]
   },
   "footer": {
-    "aboutEvent": {"label": "À propos de l'événement", "text": "La <i>R&Day</i> est un événement de sensibilisation à la sécurité numérique, organisé par les étudiants du CMI Informatique de Besançon"},
+    "aboutEvent": {"label": "À propos de l'évènement", "text": "La <i>R&Day</i> est un évènement de sensibilisation à la sécurité numérique, organisé par les étudiants du CMI Informatique de Besançon"},
     "quicklinksLabel":"Liens rapides",
     "socialNetworks": {
       "label":"Suivez-nous sur nos réseaux",
-      "facebookLink":"https://www.facebook.com/rndaybesancon",
+      "facebookLink":"https://www.facebook.com/events/675885512948455/",
       "twitterLink":"https://twitter.com/rnday_besancon",
     },
     "credit": "Copyright &copy;&nbsp;2020&nbsp;Tous droits réservés | Modèle réalisé avec <i class='icon-heart text-primary' aria-hidden='true'></i> par <a href='https://colorlib.com' target='_blank' rel='noopener'>Colorlib</a>",
-    "signature": "Adapté par <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour sa promotion CMI",
+    "signature": "Adapté par <a href='https://nathanaelhoun.fr'>Nathanaël H.</a> pour sa promotion CMI. Dernière mise à jour le 11/02/2020.",
   }
 }
