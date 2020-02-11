@@ -3,22 +3,24 @@ FINAL_DIR = docs
 
 all: fr css
 
-fr:
+fr: bightml
+	minify $(FINAL_DIR)/about.big.html > $(FINAL_DIR)/about.html
+	minify $(FINAL_DIR)/activites.big.html > $(FINAL_DIR)/activites.html
+	minify $(FINAL_DIR)/news.big.html > $(FINAL_DIR)/news.html
+	minify $(FINAL_DIR)/index.big.html > $(FINAL_DIR)/index.html
+	minify $(FINAL_DIR)/contact.big.html > $(FINAL_DIR)/contact.html
+	rm -f $(FINAL_DIR)/*.big.*
+
+bightml:
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/about.mustache > $(FINAL_DIR)/about.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/activites.mustache > $(FINAL_DIR)/activites.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/news.mustache > $(FINAL_DIR)/news.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/index.mustache > $(FINAL_DIR)/index.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/contact.mustache > $(FINAL_DIR)/contact.big.html
-	minify $(FINAL_DIR)/about.big.html > $(FINAL_DIR)/about.html 
-	minify $(FINAL_DIR)/activites.big.html > $(FINAL_DIR)/activites.html 
-	minify $(FINAL_DIR)/news.big.html > $(FINAL_DIR)/news.html 
-	minify $(FINAL_DIR)/index.big.html > $(FINAL_DIR)/index.html 
-	minify $(FINAL_DIR)/contact.big.html > $(FINAL_DIR)/contact.html 
-	rm -f $(FINAL_DIR)/*.big.*
 
 css:
 	rm -f $(FINAL_DIR)/css/all.min.css
-	minify $(FINAL_DIR)/fonts/icomoon/style.css > $(FINAL_DIR)/fonts/icomoon/style.min.css 	 	
+	minify $(FINAL_DIR)/fonts/icomoon/style.css > $(FINAL_DIR)/fonts/icomoon/style.min.css
 	minify $(FINAL_DIR)/css/*.css > $(FINAL_DIR)/css/all.min.css
 
 js:
@@ -26,7 +28,7 @@ js:
 	minify $(FINAL_DIR)/js/*.js > $(FINAL_DIR)/js/all.min.js
 
 clean:
-	rm -f $(FINAL_DIR)/*.html
-	rm -f $(FINAL_DIR)/css/all.min.css
 
 mrproper: clean
+	rm -f $(FINAL_DIR)/*.html
+	rm -f $(FINAL_DIR)/css/all.min.css
