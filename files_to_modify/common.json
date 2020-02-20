@@ -34,6 +34,26 @@
           },
         ],
       },
+      {
+        "css-order-lg-1": "order-lg-1",
+        "css-order-lg-2": "order-lg-2",
+        "side": "left",
+        "image": "https://www.femto-st.fr/sites/default/files/styles/user_annuaire/public/pictures/picture-289-1562434063.jpg?itok=UgElMEfY",
+        "name": "Jean-Michel Friedt",
+        "quality": "Chercheur au Département Temps-Fréquence de l'UFC",
+        "description": "« Sommes-nous où nous pensons être ? Est-il l'heure qu'indique mon téléphone ? Brouillage et leurrage de GPS : enjeux, détection et solutions »",
+        "networksLabel": "En savoir plus sur J-M. Friedt",
+        "networks" : [
+          {
+            "url": "https://www.femto-st.fr/fr/personnel-femto/jeanmichelfriedt",
+            "icon-class": "icon-external-link",
+          },
+          {
+            "url": "http://jmfriedt.free.fr/",
+            "icon-class": "icon-book",
+          },
+        ],
+      },
     ],
   },
   "workshops": {
