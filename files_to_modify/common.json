@@ -88,13 +88,13 @@
         "hour": "8",
         "minute": "30",
         "description" : "Accueil des élèves du Lycée C.N. Ledoux",
-        "speaker": "Étudiants du CMI Informatique"
+        "speaker": ""
       },
       {
         "css-class": " border-top",
         "data-aos-delay": "150",
         "hour": "9",
-        "minute": "30",
+        "minute": "45",
         "description" : "Conférence 1 (ouverte à tous) : thème à venir",
         "speaker": "Intervenant à venir"
       },
@@ -102,17 +102,17 @@
         "css-class": " border-top",
         "data-aos-delay": "200",
         "hour": "14",
-        "minute": "00",
+        "minute": "30",
         "description" : "Conférence 2 (ouverte à tous): thème à venir ",
         "speaker": "Intervenant à venir"
       },
       {
         "css-class": " border-top",
         "data-aos-delay": "250",
-        "hour": "14",
-        "minute": "30",
+        "hour": "15",
+        "minute": "00",
         "description" : "Escape game & ateliers ouverts à tous",
-        "speaker": "Étudiants du CMI Informatique"
+        "speaker": ""
       },
       {
         "css-class": " border-top",
@@ -128,7 +128,7 @@
         "hour": "17",
         "minute": "00",
         "description" : "Conclusion de la journée",
-        "speaker": "Étudiants du CMI Informatique"
+        "speaker": ""
       }
     ]
   },
@@ -259,6 +259,13 @@
         "description":"Escape game à Besançon",
         "logo": "images/voyage_heure.png",
         "link": "https://levoyageheure"
+      },
+      {
+        "data-aos-delay": "600",
+        "name": "OFNI",
+        "description":"Escape game à Besançon",
+        "logo": "images/ofni.png",
+        "link": "https://ofni.asso.fr/"
       }
     ]
   },
