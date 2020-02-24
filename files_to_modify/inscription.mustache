@@ -2,14 +2,15 @@
 <html lang="fr">
 
 <head>
-  <title>À propos &mdash; {{{page.titlesuffix}}}</title>
+  <title>Activités &mdash; {{{page.titlesuffix}}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="À propos des étudiants du CMI Informatique de Besançon, du Cursus Master en Ingénierie et du réseau Figure.">
+  <meta name="description" content="Activités prévues, conférenciers et programmes de la R&Day 2020 Sécurité Informatique organisée par les étudiants du CMI Informatique de Besançon">
+  <link rel="canonical" href="index.html" />
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="fonts/icomoon/style.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="icon" href="favicon.ico" />
 
@@ -29,20 +30,20 @@
     </div>
 
     <!-- Header -->
-    <header class="site-navbar py-3">
+    <header class="site-navbar py-3" >
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
             <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">{{{page.h1.1}}}<span class="text-primary">{{{page.h1.2}}}</span></a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right">
+            <nav class="site-navigation position-relative text-right" >
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a href="{{{navigation.index.href}}}">{{{navigation.index.label}}}</a></li>
                 <li><a href="{{{navigation.activities.href}}}">{{{navigation.activities.label}}}</a></li>
-                <li class="active"><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
+                <li><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
                 <li><a href="{{{navigation.news.href}}}">{{{navigation.news.label}}}</a></li>
-                <li><a href="{{{navigation.inscription.href}}}">{{{navigation.inscription.label}}}</a></li>
+                <li class="active"><a href="{{{navigation.inscription.href}}}">{{{navigation.inscription.label}}}</a></li>
                 <li class="cta"><a href="{{{navigation.contact.href}}}">{{{navigation.contact.label}}}</a></li>
               </ul>
             </nav>
@@ -56,116 +57,38 @@
     <div class="site-section site-hero inner">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-11">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Apprenons à nous connaître</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Qui sommes-nous ?</h1>
+          <div class="col-md-10">
+            <span class="d-block mb-2 caption" data-aos="fade-up">Un tiens vaut mieux que deux tu l'auras</span>
+            <h1 class="d-block mb-2" data-aos="fade-up" data-aos-delay="100">Activités</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Evenment -->
+
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg-4 ">
+          <div class="col-lg-11">
             <div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
-              <h2>{{{whoAreWe.title}}}</h2>
-
+              <h2>Réservation de l'escape game</h2>
             </div>
-          </div>
-          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="150">
-            <p>{{{whoAreWe.description.part1}}}</p>
-            <p>{{{whoAreWe.description.part2}}}</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300"><span class="text-primary">{{{whoAreWe.event.title}}}</span></div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="350">
-            <p>{{{whoAreWe.event.description.part1}}}</p>
-            <p>{{{whoAreWe.event.description.part2}}}</p>
-            <p class="mb-5">{{{whoAreWe.event.description.part3}}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Our team -->
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-10 mb-5">
-            <div class="site-section-heading" data-aos="fade-up">
-              <h2 class="text-center">{{{ourTeam.title}}}</h2>
-            </div>
-          </div>
-        </div>
+            <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="200">
+              Remplissez le formulaire ci-dessous ou <a href="https://docs.google.com/forms/d/e/1FAIpQLScKGGL1KnbwdG_H54uWHzAqZaZr1wj03rDEZMJEjNE6ryDdOw/viewform" class="p-2 pl-0">Cliquez ici</a> pour y accéder.
+            </span>
 
-        <div class="row mb-5 justify-content-center">
-          <div class="col-10" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{ourTeam.image}}" alt="{{ourTeam.title}}" class="img-fluid">
-          </div>
-        </div>
-
-
-        <div class="row">
-
-          {{#ourTeam.ourTeam-array}}
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="{{data-aos-delay}}">
-              <div class="testimony text-center">
-                <figure>
-                  <img src="{{image}}" alt="Image de {{name}}" class="img-fluid">
-                </figure>
-                <blockquote>
-                  <p class="author mb-0">{{{name}}}</p>
-                  <p class="text-muted mb-4">{{{quality}}}</p>
-                  <p>{{{description}}}</p>
-                </blockquote>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300" style="height: 1810px; background-color: white">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKGGL1KnbwdG_H54uWHzAqZaZr1wj03rDEZMJEjNE6ryDdOw/viewform?embedded=true" frameborder="0" style="height: 100%; width: 100%">Chargement du formulaire d'inscription</iframe>
               </div>
-            </div>
-          {{/ourTeam.ourTeam-array}}
 
-        </div>
-      </div>
-    </div>
-
-    <!-- Sponsors -->
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4 ">
-            <div class="site-section-heading" data-aos="fade-up">
-              <h2>{{{sponsors.title}}}</h2>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <p>{{{sponsors.description}}}</p>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-
-          {{#sponsors.sponsors-array}}
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="{{data-aos-delay}}">
-              <a href="{{link}}">
-                <div style="text-align: center; margin: 20px">
-                  <img src="{{logo}}" alt="Logo {{name}}" class="img-fluid">
-                  <h2 style="margin-top: 1em;">{{name}}</h2>
-                  <p class="text-muted mb-4">{{{description}}}</p>
-                </div>
-              </a>
-            </div>
-          {{/sponsors.sponsors-array}}
-
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="350">
-          <div class="col-12 text-center pt-5">
-            <a href="contact.html" class="btn-custom" data-aos="fade-up" data-aos-delay="800"><span>{{{sponsors.become}}}</span></a>
           </div>
         </div>
       </div>
     </div>
+
+
 
     <!-- Footer -->
     <footer class="site-footer">
@@ -211,7 +134,6 @@
         </div>
       </div>
     </footer>
-
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
