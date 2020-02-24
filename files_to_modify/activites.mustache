@@ -43,6 +43,7 @@
                 <li class="active"><a href="{{{navigation.activities.href}}}">{{{navigation.activities.label}}}</a></li>
                 <li><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
                 <li><a href="{{{navigation.news.href}}}">{{{navigation.news.label}}}</a></li>
+                <li><a href="{{{navigation.inscription.href}}}">{{{navigation.inscription.label}}}</a></li>
                 <li class="cta"><a href="{{{navigation.contact.href}}}">{{{navigation.contact.label}}}</a></li>
               </ul>
             </nav>
@@ -90,6 +91,9 @@
               <div class="bio pl-lg-5">
                 <span class="text-uppercase text-primary d-block mb-3 {{side}}" data-aos="fade-{{side}}" data-aos-delay="200">{{{subtitle}}}</span>
                 <p class="mb-4 {{side}}" data-aos="fade-{{side}}" data-aos-delay="300">{{{description}}}</p>
+                {{#link}}
+                <a href="{{link-href}}" class="btn-custom" data-aos="fade-{{side}}" data-aos-delay="300"><span>{{{link-text}}}</span></a>
+                {{/link}}
               </div>
             </div>
           </div>
@@ -275,6 +279,7 @@
               <li><a href="{{{navigation.activities.href}}}">{{{navigation.activities.label}}}</a></li>
               <li><a href="{{{navigation.about.href}}}">{{{navigation.about.label}}}</a></li>
               <li><a href="{{{navigation.news.href}}}">{{{navigation.news.label}}}</a></li>
+              <li><a href="{{{navigation.inscription.href}}}">{{{navigation.inscription.label}}}</a></li>
               <li><a href="{{{navigation.contact.href}}}">{{{navigation.contact.label}}}</a></li>
             </ul>
           </div>

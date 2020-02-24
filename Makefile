@@ -9,6 +9,7 @@ fr: bightml
 	minify $(FINAL_DIR)/news.big.html > $(FINAL_DIR)/news.html
 	minify $(FINAL_DIR)/index.big.html > $(FINAL_DIR)/index.html
 	minify $(FINAL_DIR)/contact.big.html > $(FINAL_DIR)/contact.html
+	minify $(FINAL_DIR)/inscription.big.html > $(FINAL_DIR)/inscription.html
 	rm -f $(FINAL_DIR)/*.big.*
 
 bightml:
@@ -17,6 +18,7 @@ bightml:
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/news.mustache > $(FINAL_DIR)/news.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/index.mustache > $(FINAL_DIR)/index.big.html
 	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/contact.mustache > $(FINAL_DIR)/contact.big.html
+	mustache $(TEMPLATES_DIR)/common.json $(TEMPLATES_DIR)/inscription.mustache > $(FINAL_DIR)/inscription.big.html
 
 css:
 	rm -f $(FINAL_DIR)/css/all.min.css
