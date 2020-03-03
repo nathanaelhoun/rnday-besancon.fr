@@ -34,7 +34,7 @@
   },
   "speakers": {
     "title": "Écouter",
-    "generalDescription": "Plus d'informations à venir",
+    "generalDescription": "Trois professionnels de la sécurité numérique viendront nous parler pendant trois conférences. Voir les horaires sur le planning.",
     "speakers-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
@@ -58,6 +58,17 @@
         "css-order-lg-1": "order-lg-1",
         "css-order-lg-2": "order-lg-2",
         "side": "left",
+        "image": "",
+        "name": "Major Philippe Pintapary ",
+        "quality": "Chef CICN du Doubs, spécialiste NTECH",
+        "description": "",
+        "networksLabel": "",
+        "networks": []
+      },
+      {
+        "css-order-lg-1": "",
+        "css-order-lg-2": "",
+        "side": "right",
         "image": "https://www.femto-st.fr/sites/default/files/styles/user_annuaire/public/pictures/picture-289-1562434063.jpg?itok=UgElMEfY",
         "name": "Jean-Michel Friedt",
         "quality": "Chercheur au Département Temps-Fréquence de l'UFC",
@@ -101,7 +112,7 @@
   },
   "program": {
     "title": "Programme",
-    "description": "Nous accueillons des lycéens du Lycée C.N. Ledoux le matin, et l'après-midi les étudiants et professeurs, ainsi que toutes les personnes qui le souhaitent. ",
+    "description": "Nous accueillons des lycéens du Lycée C.N. Ledoux le matin, et l'après-midi les étudiants et professeurs, ainsi que toutes les personnes qui le souhaitent. Les conférences sont ouvertes à tous ! ",
     "program-array": [{
         "css-class": " border-top",
         "data-aos-delay": "100",
@@ -115,23 +126,23 @@
         "data-aos-delay": "150",
         "hour": "9",
         "minute": "45",
-        "description": "Conférence 1 (ouverte à tous) : thème à venir",
-        "speaker": "Intervenant à venir"
+        "description": "Conférence 1 (ouverte à tous) – Lorsque l'informatiquer est devenue une arme de guerre",
+        "speaker": "Alexandre Vernotte"
       },
       {
         "css-class": " border-top",
         "data-aos-delay": "200",
         "hour": "14",
         "minute": "30",
-        "description": "Conférence 2 (ouverte à tous): thème à venir ",
-        "speaker": "Intervenant à venir"
+        "description": "Conférence 2 (ouverte à tous) – Thème à venir ",
+        "speaker": "Major Philippe Pintapary"
       },
       {
         "css-class": " border-top",
         "data-aos-delay": "250",
         "hour": "15",
         "minute": "00",
-        "description": "Escape game & ateliers ouverts à tous",
+        "description": "<a href='inscription.html'>Escape game</a> & ateliers ouverts à tous",
         "speaker": ""
       },
       {
@@ -139,8 +150,8 @@
         "data-aos-delay": "300",
         "hour": "16",
         "minute": "30",
-        "description": "Conférence 3 (ouverte à tous): thème à venir",
-        "speaker": "Intervenant à venir"
+        "description": "Conférence 3 (ouverte à tous) – Sommes-nous où nous pensons être ? Est-il l'heure qu'indique mon téléphone ? Brouillage et leurrage de GPS : enjeux, détection et solutions",
+        "speaker": "Jean-Michel Friedt"
       },
       {
         "css-class": " border-top",
@@ -153,8 +164,8 @@
     ]
   },
   "whoAreWe": {
-    "title": "Le Cursus Master en Ingénierie",
-    "description": {
+    "title": "Le Cursus Master en description",
+    "Ingénierie": {
       "part1": "Le <a href='https://reseau-figure.fr/a-propos-du-cmi/'>Cursus Master en Ingénierie</a> est une formation proposée par le réseau Figure et soutenue à Besançon par <a href='http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html'>l’institut FEMTO-ST</a> et notamment avec son <a href='https://www.femto-st.fr/fr/Departements-de-recherche/DISC/Presentation'>Département Informatique des Systèmes Complexes (DISC)</a>.",
       "part2": "Elle ambitionne entre autres de former les étudiants aux problématiques actuelles à travers des activités pédagogiques de mises en situation."
     },
