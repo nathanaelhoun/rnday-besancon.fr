@@ -19,9 +19,9 @@
       "href": "activites.html",
       "label": "Activités"
     },
-    "inscription": {
-      "href": "inscription.html",
-      "label": "Réservation escape game"
+    "commentaire": {
+      "href": "commentaire.html",
+      "label": "Donnez-nous votre avis"
     },
     "newsTOMODIFY": {
       "href": "news.html",
@@ -34,7 +34,7 @@
   },
   "speakers": {
     "title": "Écouter",
-    "generalDescription": "Trois professionnels de la sécurité numérique viendront nous parler pendant trois conférences. Voir les horaires sur le planning.",
+    "generalDescription": "Trois professionnels de la sécurité numérique nous ont parlé pendant trois conférences.",
     "speakers-array": [{
         "css-order-lg-1": "",
         "css-order-lg-2": "",
@@ -42,7 +42,7 @@
         "image": "https://members.femto-st.fr/alexandre-vernotte/sites/femto-st.fr.alexandre-vernotte/files/styles/photo/public/picture.jpg?itok=YFqPTOQx",
         "name": "Alexandre Vernotte",
         "quality": "Chercheur à l'institut FEMTO-ST de Besançon",
-        "description": "Fort de ses recherches en tests de vulnérabilité, Alexandre Vernotte nous parlera du redoutable virus Stuxnet",
+        "description": "Fort de ses recherches en tests de vulnérabilité, Alexandre Vernotte nous a parlé du redoutable virus Stuxnet",
         "networksLabel": "En savoir plus sur A. Vernotte",
         "networks": [{
             "url": "https://members.femto-st.fr/alexandre-vernotte/",
@@ -61,7 +61,7 @@
         "image": "images/logo-gendarmerie-nationale-200x200.jpg",
         "name": "Major P. Pintapary ",
         "quality": "Chef CICN du Doubs, spécialiste NTECH",
-        "description": "Travaillant à la Cellule d'Investigations Criminelles et Numériques (CICN), le Major Pintapary nous montrera les réponses apportées à la cybercriminalité par la Gendarmerie.",
+        "description": "Travaillant à la Cellule d'Investigations Criminelles et Numériques (CICN), le Major Pintapary nous a montré les réponses apportées à la cybercriminalité par la Gendarmerie.",
         "networksLabel": "",
         "networks": []
       },
@@ -87,7 +87,7 @@
     ]
   },
   "workshops": {
-    "title": "Pratiquer",
+    "title": "Nous avons fait",
     "generalDescription": "",
     "workshops-array": [{
       "css-order-lg-1": "",
@@ -96,11 +96,7 @@
       "image": "images/escape-game.jpg",
       "title": "Escape game",
       "subtitle": "Saurez-vous échapper au hacker ?",
-      "description": "Dans cet <i>escape game</i>, vous incarnerez une équipe en situation de crise chargée d'arrêter une attaque pirate en temps réel.",
-      "link": true,
-      "link-href": "inscription.html",
-      "link-text": "Réservez votre place à l'escape game"
-
+      "description": "Dans cet <i>escape game</i>, nous avons proposé de devenir une équipe en situation de crise chargée d'arrêter une attaque pirate en temps réel.",
     }, {
       "css-order-lg-1": "order-lg-1",
       "css-order-lg-2": "order-lg-2",
@@ -108,12 +104,12 @@
       "image": "images/workshop.jpg",
       "title": "Ateliers",
       "subtitle": "Apprendre en pratiquant",
-      "description": "Dans nos ateliers participatifs, vous pourrez manipuler différentes notions liées à la sécurité informatique. Venez les découvrir sur place ! "
+      "description": "Dans nos ateliers participatifs, vous avez pu manipuler différentes notions liées à la sécurité informatique. Merci d'être venu ! "
     }]
   },
   "program": {
     "title": "Programme",
-    "description": "Nous accueillons des lycéens du Lycée C.N. Ledoux le matin, et l'après-midi les étudiants et professeurs, ainsi que toutes les personnes qui le souhaitent. Les conférences sont ouvertes à tous ! ",
+    "description": "Voici commment nous avons réparti la journée. ",
     "program-array": [{
         "css-class": " border-top",
         "data-aos-delay": "100",
@@ -165,7 +161,7 @@
     ]
   },
   "whoAreWe": {
-    "title": "Le Cursus Master en description",
+    "title": "Le Cursus Master en Ingénierie",
     "Ingénierie": {
       "part1": "Le <a href='https://reseau-figure.fr/a-propos-du-cmi/'>Cursus Master en Ingénierie</a> est une formation proposée par le réseau Figure et soutenue à Besançon par <a href='http://sciences.univ-fcomte.fr/pages/fr/menu3795/formations/cmi-informatique-besancon-17938-15943.html'>l’institut FEMTO-ST</a> et notamment avec son <a href='https://www.femto-st.fr/fr/Departements-de-recherche/DISC/Presentation'>Département Informatique des Systèmes Complexes (DISC)</a>.",
       "part2": "Elle ambitionne entre autres de former les étudiants aux problématiques actuelles à travers des activités pédagogiques de mises en situation."
@@ -174,7 +170,7 @@
       "title": "La R&Day",
       "description": {
         "part1": "La Journée Recherche et Développement, ou <i style='color: #ff5733;'>R&Day</i> comme nous l'appelons, est un évènement organisé dans le cadre de la formation CMI par les étudiants en 2<sup>ème</sup> année de Licence.",
-        "part2": "Elle est l'occasion pour nous d'apprendre à créer un événément, mais surtout de vous faire entrer dans notre univers en vous faisant découvrir un pan de notre corps de métier : la sécurité dans le monde de l'Informatique.",
+        "part2": "Elle a été l'occasion pour nous d'apprendre à créer un événément, mais surtout de vous faire entrer dans notre univers en vous faisant découvrir un pan de notre corps de métier : la sécurité dans le monde de l'Informatique.",
         "part3": ""
       },
       "author": {
