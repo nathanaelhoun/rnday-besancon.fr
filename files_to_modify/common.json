@@ -19,13 +19,9 @@
       "href": "activites.html",
       "label": "Activités"
     },
-    "inscription": {
-      "href": "inscription.html",
-      "label": "Réservation escape game"
-    },
-    "newsTOMODIFY": {
-      "href": "news.html",
-      "label": "Actualités"
+    "commentaire": {
+      "href": "commentaire.html",
+      "label": "Laissez-nous votre avis"
     },
     "contact": {
       "href": "contact.html",
