@@ -1,7 +1,7 @@
 # rnday-besancon.fr
 
 Site web pour la promotion de l'évènement organisé par les CMI Informatique de Besançon en 2020
-Disponible sur https://rnday-besancon.fr
+Anciennement disponible sur https://rnday-besancon.fr. Version archive ici : https://nathanaelhoun.github.io/rnday-besancon.fr/
 
 ## Organisation
 - Le contenu final du site se trouve dans `docs/`.
