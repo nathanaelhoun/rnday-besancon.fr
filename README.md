@@ -1,20 +1,19 @@
 # rnday-besancon.fr
 
-Site web pour la promotion de l'évènement organisé par les CMI Informatique de Besançon en 2020
-Anciennement disponible sur https://rnday-besancon.fr. Version archive ici : https://nathanaelhoun.github.io/rnday-besancon.fr/
+Site web pour la promotion de l'évènement organisé par les CMI Informatique de Besançon en 2020.
+Anciennement disponible sur https://rnday-besancon.fr. Version pour archive ici : https://nathanaelhoun.github.io/rnday-besancon.fr/
 
 ## Organisation
 - Le contenu final du site se trouve dans `docs/`.
 - Les **fichiers html à modifier** se trouvent dans `files_to_modify/`.
-- Les images sont dans `/docs/images`.
+- Les images sont dans `docs/images`.
 
 ## Dépendances
-- [Mustache pour générer le site web](https://mustache.github.io/)
-- Minify.js pour réduire la taille des fichiers générés. À installer avec npm.
-
-```
-npm i minify -g
-```
+- [Mustache](https://mustache.github.io/), pour générer le site web
+- Minify.js pour réduire la taille des fichiers générés. À installer avec `npm`.
+  ```
+  npm i minify -g
+  ```
 
 ## Générer le site
 - Les informations communes (contenu partagé, balises meta, crédits etc...) se trouvent dans `common.json`
